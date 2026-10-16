@@ -1,0 +1,33 @@
+# Local legacy references are private until reviewed for the intended destination.
+/reference/
+# Planning documents are delivered privately while origin is public.
+/docs/
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+*.sqlite
+*.sqlite3
+*.db
+*.mdf
+*.ldf
+*.bak
+*.dump
+node_modules/
+__pycache__/
+.venv/
+.vs/
+.idea/
+obj/
+dist/
+build/
+logs/
+uploads/
+backups/
